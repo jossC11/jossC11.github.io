@@ -1,0 +1,258 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000000;
+}
+
+/* Navbar */
+nav {
+    background-color: #3E2723 ;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4f1e1;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header .logo img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 90px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-top: 60px;
+    color: #000000;
+}
+
+/* Video */
+.video {
+    text-align: center;
+    margin: 20px 0;
+}
+
+video {
+    margin-top: 20px;
+    width: 55%;
+    height: auto;
+}
+
+/* Sección Sobre Nosotros */
+#sobre-nosotros {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sobre-nosotros-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+
+}
+.historia, .fundador {
+    background-color: #f2eae6;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;  /* Centra el contenido horizontalmente */
+    align-items: center;      /* Centra el contenido verticalmente */
+    flex-direction: column;   /* Asegura que la imagen esté arriba del texto */
+    max-width: 450px; /* Ajusta el tamaño máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.historia img, .fundador img {
+    max-width: 80%; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+.historia h3, .fundador h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.historia p {
+    margin-bottom: 20px;
+}
+
+/* Tabla de Productos */
+#productos {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+th {
+    background-color: #6D4C41;
+    color: #fff;
+}
+
+
+/* Galería */
+#galeria h4 {
+    font-weight: normal; /* Cambia el peso de la fuente a normal */
+    margin-bottom: 20px;
+}
+#galeria {
+    text-align: center;
+    margin: 20px 0;
+    
+}
+#galeria h2 {
+   color:#3E2723 ;
+    
+}
+
+.galeria-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria-imagenes img {
+    margin-top: 5%;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(163, 137, 106, 0.1);
+}
+
+.producto {
+    text-align: center;
+    width: 25%;
+    margin: 50px 0;
+}
+
+.producto-titulo {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.producto img {
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.btn-pedir {
+    background-color: #3E2723;
+    color: #fff;
+    padding: 10px 20px; /* Aumentar el valor del padding horizontal */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 50%; /* El botón ocupará todo el ancho del contenedor */
+}
+
+.btn-pedir:hover {
+    background-color: #6D4C41;
+}
+
+/* Contacto */
+#contacto {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color:#6D4C41;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.contact-form h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #6b6b6b;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background-color: #3E2723;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #4d4d4d;
+}
+
+.contact-form h3{
+    color:#fff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #3E2723;
+    color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+}
