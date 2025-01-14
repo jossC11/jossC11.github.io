@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .producto{
+      width: 100%;
+      height: max-content;
+
+    }
+    .galeria{
+
+
+    }
+}
+    
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
@@ -255,4 +267,7 @@ footer {
     color: #fff;
     padding: 20px;
     margin-top: 40px;
+
 }
+
+
