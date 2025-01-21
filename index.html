@@ -11,149 +11,149 @@
     <!-- Navbar -->
     <nav>
         <ul>
-            <li><a href="#sobre-nosotros" tabindex="1">Sobre Nosotros</a></li>
-            <li><a href="#productos" tabindex="2">Productos</a></li>
-            <li><a href="#Dulceria" tabindex="3">Galería</a></li>
-            <li><a href="#contacto" tabindex="4">Contacto</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
     <!-- Título y Logo -->
-    <header>
-        <div class="logo">
-            <img src="imagenes/logo.png" alt="Logo Moments" tabindex="5"/>
+    <header >
+        <div class="logo" >
+            <img src="imagenes/logo.png" alt="Logo Moments" tabindex="0" >
         </div>
-        <h1 class="titulo" tabindex="6">Bienvenido a Moments</h1>
+        <h1 class="titulo" tabindex="0">Bienvenido a Moments</h1 >
     </header>
 
     <!-- Video -->
-    <section class="video" aria-label="Video Promocional de la cafetería">
-        <h3 tabindex="7">Cada taza de café es un viaje a los recuerdos, donde los momentos compartidos se convierten en historias que nunca olvidaremos.</h3>
-        <video controls tabindex="8" aria-label="Video promocional de la cafetería Moments.">
+    <section class="video">
+        <h3 tabindex="0">Cada taza de café es un viaje a los recuerdos, donde los momentos compartidos se convierten en historias que nunca olvidaremos.</h3 >
+        <video controls>
             <source src="video/promocion.mp4" type="video/mp4">
             Tu navegador no soporta este video.
         </video>
     </section>
 
     <!-- Sobre Nosotros -->
-    <section id="sobre-nosotros">
-        <div class="sobre-nosotros-container">
-            <div class="historia">
-                <h3 tabindex="9">Nuestra Historia</h3>
-                <p tabindex="10">Somos una cafetería apasionada por el buen café y la calidez del ambiente. Con años de experiencia, ofrecemos productos frescos y deliciosos. Aquí, cada momento es especial.</p>
-                <img src="imagenes/cafe.jpg" alt="imagen de amigos compartiendo momentos" class="historia-img" tabindex="11"/>
+    <section id="sobre-nosotros" >
+        <div class="sobre-nosotros-container" >
+            <div class="historia" >
+                <h3 tabindex="0">Nuestra Historia</h3>
+                <p tabindex="0">Somos una cafetería apasionada por el buen café y la calidez del ambiente. Con años de experiencia, ofrecemos productos frescos y deliciosos. Aquí, cada momento es especial.</p>
+                <img src="imagenes/cafe.jpg" alt="imagen de amigos compartiendo momentos" class="historia-img" tabindex="0">
             </div>
             <div class="fundador">
-                <h3 tabindex="12">Fundador</h3>
-                <p tabindex="13">Fundada por Joselyn Pilco con más de 5 años de experiencia en el mundo del café porque más que una cafetería, es el sueño de compartir con los que amas.</p>
-                <img src="imagenes/joselyn.jpeg" alt="Persona fundadora de Moments" tabindex="14"/>
+                <h3 tabindex="0">Fundador</h3>
+                <p tabindex="0">Fundada por Joselyn Pilco con más de 5 años de experiencia en el mundo del café porque más que una cafetería, es el sueño de compartir con los que amas.</p>
+                <img src="imagenes/joselyn.jpeg" alt="Persona fundadora de Moments" tabindex="0">
             </div>
         </div>
     </section>
 
     <!-- Galería -->
     <section id="galeria">
-        <h2 tabindex="15">Dulceria</h2>
-        <div class="galeria-imagenes" tabindex="16">
+        <h2 tabindex="0">Dulceria</h2>
+        <div class="galeria-imagenes">
             <div class="producto">
-                <h3 class="producto-titulo" tabindex="17">Tres Leches</h3>
-                <img src="imagenes/tresleche.jpeg" alt="imagen de postre tres leches" tabindex="18"/>
-                <h4 tabindex="19">Un postre esponjoso y jugoso, empapado en una mezcla de tres leches, que te transportará a un mundo de sabor y tradición.</h4>
-                <button class="btn-pedir" onclick="ordenarProducto('Tres Leches')" tabindex="20" aria-label="Botón para Pedir Tres Leches">Pedir</button>
+                <h3 class="producto-titulo" tabindex="0">Tres Leches</h3>
+                <img src="imagenes/tresleche.jpeg" alt="imagen de postre tres leches" tabindex="0">
+                <h4 tabindex="0">Un postre esponjoso y jugoso, empapado en una mezcla de tres leches, que te transportará a un mundo de sabor y tradición.</h4>
+                <button class="btn-pedir" onclick="ordenarProducto('Tres Leches')" aria-label="Botón para Pedir Tres Leches" >Pedir</button>
             </div>
             <div class="producto">
-                <h3 class="producto-titulo" tabindex="21">mousse maracuya</h3>
-                <img src="imagenes/mus.jpeg" alt="imagen de postre mousse maracuya" tabindex="22"/>
-                <h4 tabindex="23">Refrescante y ácido, este mus es un delicioso equilibrio entre dulzura y acidez, ideal para los amantes de los cítricos.</h4>
-                <button class="btn-pedir" onclick="ordenarProducto('mousse')" tabindex="24" aria-label="Botón para Pedir Mousse de  maracuya">Pedir</button>
+                <h3 class="producto-titulo" tabindex="0" >Mousse de Maracuyá</h3>
+                <img src="imagenes/mus.jpeg" alt="imagen de postre mousse maracuya" tabindex="0">
+                <h4 tabindex="0">Refrescante y ácido, este mus es un delicioso equilibrio entre dulzura y acidez, ideal para los amantes de los cítricos.</h4>
+                <button class="btn-pedir" onclick="ordenarProducto('mousse')" aria-label="Botón para Pedir Mousse de Maracuyá" >Pedir</button>
             </div>
             <div class="producto">
-                <h3 class="producto-titulo" tabindex="25">Tiramisú
-                </h3>
-                <img src="imagenes/tiramisu.jpeg" alt="imagen de postre tiramisu" tabindex="26"/>
-                <h4 tabindex="27">Un clásico italiano que nunca falla, suave y cremoso, ¡perfecto para cualquier ocasión!</h4>
-                <button class ="btn-pedir" onclick="ordenarProducto('tiramisu')" tabindex="28" aria-label="Botón para Pedir un Tiramisu">Pedir</button>
+                <h3 class="producto-titulo" tabindex="0">Tiramisú</h3>
+                <img src="imagenes/tiramisu.jpeg" alt="imagen de postre tiramisu" tabindex="0">
+                <h4 tabindex="0" >Un clásico italiano que nunca falla, suave y cremoso, ¡perfecto para cualquier ocasión!</h4>
+                <button class="btn-pedir" onclick="ordenarProducto('Tiramisú')" aria-label="Botón para Pedir un Tiramisú" >Pedir</button>
             </div>
         </div>
     </section>
 
     <!-- Tabla de Productos -->
     <section id="productos">
-        <h2 tabindex="29">Conoce nuestros productos</h2>
-        <table tabindex="30">
-            <thead>
+        <h2 tabindex="0">Conoce nuestros productos</h2>
+        <table >
+            <thead >
                 <tr>
-                    <th tabindex="31">Producto</th>
-                    <th tabindex="32">Descripción</th>
-                    <th tabindex="33">Precio</th>
+                    <th tabindex="0">Producto</th>
+                    <th tabindex="0">Descripción</th>
+                    <th tabindex="0">Precio</th>
                 </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td tabindex="34">Café Latte</td>
-                    <td tabindex="35">Café suave con leche espumosa</td>
-                    <td tabindex="36">$3.50</td>
-                </tr>
-                <tr>
-                    <td tabindex="37">Capuchino</td>
-                    <td tabindex="38">Un espresso cubierto con leche espumosa</td>
-                    <td tabindex="39">$3.00</td>
-                </tr>
-                <tr>
-                    <td tabindex="40">Brownie</td>
-                    <td tabindex="41">Delicioso pastel de chocolate</td>
-                    <td tabindex="42">$2.00</td>
-                </tr>
-                <tr>
-                    <td tabindex="43">Frappe</td>
-                    <td tabindex="44">Café helado con crema</td>
-                    <td tabindex="45">$3.80</td>
-                </tr>
-                <tr>
-                    <td tabindex="46">Tarta de Frambuesa</td>
-                    <td tabindex="47">Postre suave con frambuesas frescas</td>
-                    <td tabindex="48">$2.50</td>
-                </tr>
-                <tr>
-                    <td tabindex="49">Galletas de Avena</td>
-                    <td tabindex="50">Galletas caseras de avena y chocolate</td>
-                    <td tabindex="51">$1.50</td>
-                </tr>
-                <tr>
-                    <td tabindex="52">Mocha</td>
-                    <td tabindex="53">Café con chocolate y leche</td>
-                    <td tabindex="54">$3.70</td>
-                </tr>
-                <tr>
-                    <td tabindex="55">Pastel de Zanahoria</td>
-                    <td tabindex="56">Delicioso pastel de zanahoria con crema</td>
-                    <td tabindex="57">$2.50</td>
-                </tr>
-                <tr>
-                    <td tabindex="58">Macarons</td>
-                    <td tabindex="59">Delicados dulces franceses</td>
-                    <td tabindex="60">$1.00</td>
-                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td tabindex="0">Café Latte</td>
+                        <td tabindex="0">Café suave con leche espumosa</td>
+                        <td tabindex="0">$3.50</td>
+                    </tr>
+                    <tr>
+                        <td tabindex="0">Capuchino</td>
+                        <td tabindex="0">Un espresso cubierto con leche espumosa</td>
+                        <td tabindex="0">$3.00</td>
+                    </tr>
+                    <tr>
+                        <td tabindex="0">Brownie</td>
+                        <td tabindex="0">Delicioso pastel de chocolate</td>
+                        <td tabindex="0">$2.00</td>
+                    </tr>
+                    <tr>
+                        <td tabindex="0">Frappe</td>
+                        <td tabindex="0">Café helado con crema</td>
+                        <td tabindex="0">$3.80</td>
+                    </tr>
+                    <tr>
+                        <td tabindex="0">Tarta de Frambuesa</td>
+                        <td tabindex="0">Postre suave con frambuesas frescas</td>
+                        <td tabindex="0">$2.50</td>
+                    </tr>
+                    <tr>
+                        <td tabindex="0">Galletas de Avena</td>
+                        <td tabindex="0">Galletas caseras de avena y chocolate</td>
+                        <td tabindex="0">$1.50</td>
+                    </tr>
+                    <tr>
+                        <td tabindex="0">Mocha</td>
+                        <td tabindex="0">Café con chocolate y leche</td>
+                        <td tabindex="0">$3.70</td>
+                    </tr>
+                    <tr>
+                        <td tabindex="0">Pastel de Zanahoria</td>
+                        <td tabindex="0">Delicioso pastel de zanahoria con crema</td>
+                        <td tabindex="0">$2.50</td>
+                    </tr>
+                    <tr>
+                        <td tabindex="0">Macarons</td>
+                        <td tabindex="0">Delicados dulces franceses</td>
+                        <td tabindex="0">$1.00</td>
+                    </tr>
             </tbody>
         </table>
     </section>
 
     <!-- Contacto -->
     <section id="contacto">
-        <h2 tabindex="61">Contáctanos</h2>
+        <h2 tabindex="0">Contáctanos</h2>
         <div class="contact-form">
-            <h3 tabindex="62">Envíanos un mensaje</h3>
-            <form id="contact-form" tabindex="63">
-                <input type="text" placeholder="Nombre" required tabindex="64" aria-label="Ingrese su nombre completo">
-                <input type="email" placeholder="Email" required tabindex="65" aria-label="Ingrese un correo electrónico válido">
-                <textarea placeholder="Mensaje" required tabindex="66" aria-label="Escribe el mensaje que quieres emitir"></textarea>
-                <button type="submit" tabindex="67" aria-label="Enviar mensaje">Enviar</button>
+            <h3 tabindex="0">Envíanos un mensaje</h3>
+            <form id="contact-form">
+                <input type="text" placeholder="Nombre" required aria-label="Ingrese su nombre completo">
+                <input type="email" placeholder="Email" required aria-label="Ingrese un correo electrónico válido">
+                <textarea placeholder="Mensaje" required aria-label="Escribe el mensaje que quieres emitir"></textarea>
+                <button type="submit" aria-label="Enviar mensaje">Enviar</button>
             </form>
         </div>
     </section>
+
     <!-- Footer -->
-    <footer tabindex="68">
-        <p>&copy; 2025 Moments Cafetería. Todos los derechos reservados.</p>
+    <footer>
+        <p tabindex="0">&copy; 2025 Moments Cafetería. Todos los derechos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
